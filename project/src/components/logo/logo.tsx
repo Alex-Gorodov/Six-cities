@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
+import { AppRoute } from '../../const';
 
 export function Logo(): JSX.Element {
   return (
-    <Link className="header__logo-link" to="Six-cities/">
+    <Link className="header__logo-link" to={`/${AppRoute.Root}`}>
       <img
         className="header__logo"
         src="Six-cities/img/logo.svg"

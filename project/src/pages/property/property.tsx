@@ -98,7 +98,7 @@ export const Property: FC = () => {
                   <div className="property__avatar-wrapper property__avatar-wrapper--pro user__avatar-wrapper">
                     <img
                       className="property__avatar user__avatar"
-                      src={room.host.avatarUrl}
+                      src={`Six-cities/${room.host.avatarUrl}`}
                       width="74"
                       height="74"
                       alt="Host avatar"
