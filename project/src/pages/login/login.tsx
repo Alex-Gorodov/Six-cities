@@ -35,7 +35,7 @@ export function Login(): JSX.Element {
           </section>
           <section className="locations locations--login locations--current">
             <div className="locations__item">
-              <Link className="locations__item-link" to={AppRoute.Root} onClick={() => dispatch(changeCity({city: randomCity}))}>
+              <Link className="locations__item-link" to={`/${AppRoute.Root}`} onClick={() => dispatch(changeCity({city: randomCity}))}>
                 <span>{randomCity}</span>
               </Link>
             </div>
