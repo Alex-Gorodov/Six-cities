@@ -6,8 +6,8 @@ export const HOME_MAP_HEIGHT = 742;
 export const PROPERTY_MAP_HEIGHT = 560;
 
 export enum AppRoute {
-  Login = 'Six-cities/login',
-  Room = 'Six-cities/offer/:id',
+  Login = '/login',
+  Room = '/offer/:id',
   Root = 'Six-cities/',
 }
 
